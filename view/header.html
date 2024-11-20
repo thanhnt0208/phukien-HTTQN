@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>header</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            max-width: 1800px;
+            width: 100%;
+            height: 80px;
+            background-color: #A5906C;
+        }
+        .col80 {
+            width: 80%;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            height: 100%;
+            margin: 0 auto;
+        }
+        .logo img {
+            height: 100%;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            padding: 15px;
+        }
+        ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Khoảng cách giữa các biểu tượng */
+        }
+        .item input {
+            width: 150px;
+            height: 20px; /* Tăng chiều cao để cân đối hơn */
+            border-radius: 5px;
+            padding: 5px;
+            border: none; /* Xóa viền mặc định */
+        }
+        .item i {
+            color: white;
+            font-size: 18px; /* Tăng kích thước icon */
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="col80">
+            <div class="logo">
+                <img src="../public/img/Màu Be Cổ điển Hình tròn Thời trang Logo (2) 1.png" alt="">
+            </div>
+            
+            <ul>
+                <li><a href="">TRANG CHỦ</a></li>
+                <li><a href="">DANH MỤC</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li><a href="">LIÊN HỆ</a></li>
+            </ul>
+            
+            <div class="item">
+                <input type="text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
     
 </body>
 </html>
