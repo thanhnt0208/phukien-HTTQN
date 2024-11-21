@@ -36,6 +36,7 @@ ul li a {
     font-size: 16px;
     color: #fff;
 }
+
 .menu ul li ul{
     background-color: #c4aa7e;
     width: 150px;
@@ -54,6 +55,7 @@ ul li a {
 .menu ul li:hover>ul{
     display: block;
 }
+
 .item {
     display: flex;
     align-items: center;
@@ -86,4 +88,5 @@ h3{
     text-align: center;
     padding: 30px;
     color: #8F7D5E;
+
 }
