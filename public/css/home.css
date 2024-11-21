@@ -36,6 +36,24 @@ ul li a {
     font-size: 16px;
     color: #fff;
 }
+.menu ul li ul{
+    background-color: #c4aa7e;
+    width: 150px;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px gray;
+    display: none;
+    z-index: 1;
+
+}
+.menu ul li ul li a{
+    color: #fff;
+}
+.menu ul li:hover>ul{
+    display: block;
+}
 .item {
     display: flex;
     align-items: center;
@@ -53,9 +71,19 @@ ul li a {
     font-size: 18px; /* Tăng kích thước icon */
 }
 /* Home */
-.bannerphu img{
-
+.bannerphu {
+    display: flex; /* Kích hoạt Flexbox */
+    justify-content: center; /* Căn ngang */
+    align-items: center; /* Căn dọc */
+    height: 200px; /* Đặt chiều cao cố định nếu cần */
+}
+.bannerphu img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
+    height: 250; /* Giữ tỷ lệ ảnh */
 }
 h3{
+    font-size: 28px;
     text-align: center;
+    padding: 30px;
+    color: #8F7D5E;
 }
