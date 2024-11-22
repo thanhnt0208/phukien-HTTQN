@@ -1,0 +1,161 @@
+body {
+    box-sizing: border-box;
+    background-color: #EFE9E6;
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header {
+    max-width: 1800px;
+    width: 100%;
+    height: 80px;
+    background-color: #A5906C;
+}
+.col80 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100%;
+    margin: 0 auto;
+}
+.logo img {
+    height: 100%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    padding: 15px;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.menu ul li ul{
+    background-color: #c4aa7e;
+    width: 150px;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px gray;
+    display: none;
+    z-index: 1;
+
+}
+.menu ul li ul li a{
+    color: #fff;
+}
+.menu ul li:hover>ul{
+    display: block;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Khoảng cách giữa các biểu tượng */
+}
+.item input {
+    width: 150px;
+    height: 20px; /* Tăng chiều cao để cân đối hơn */
+    border-radius: 5px;
+    padding: 5px;
+    border: none; /* Xóa viền mặc định */
+}
+.item i {
+    color: white;
+    font-size: 18px; /* Tăng kích thước icon */
+}
+/* Home */
+.bannerphu {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 200px; 
+}
+.bannerphu img {
+    max-width: 100%;
+    height: 250; 
+}
+h3{
+    font-size: 28px;
+    text-align: center;
+    padding: 30px;
+    color: #8F7D5E;
+
+}
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around; 
+}
+.col4 {
+    max-width: 300px; 
+    height: 350px;
+    text-align: center; 
+    border-radius: 10px; 
+    padding: 3px;
+    background-color: #fff; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.col4:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.col4 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.col4 .name {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.col4 p {
+    max-width: 50%;
+    text-align: left;
+    color: #000000;
+}
+
+.col4 .sohang{
+    max-width: 50%;
+    text-align: left;
+    color: #747474;
+}
+
+.col4 button {
+    float: right; /* Căn nút sang bên phải */
+    clear: both; /* Đảm bảo không bị lỗi giao thoa nội dung */
+    background-color: #8F7D5E;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+.col4 button:hover {
+    background-color: #584c39;
+}
