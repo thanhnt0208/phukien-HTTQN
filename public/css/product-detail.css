@@ -1,0 +1,41 @@
+/* css product-detail */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EFE9E6;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col{
+    width: 100%;
+    display: flex;
+
+}
+.col6{
+    width: 60%;
+    display: flex;
+
+}
+.khunglon img{
+    width: 500px;
+}
+.khungnho img{
+    width: 150px;
+    padding: 0 20px;
+}
+.col4{
+    width: 40%;
+}
+.soluong {
+    display: flex;
+}
+.soluong p{
+    padding-right: 10px;
+}
+.soluong input {
+    height: 20px;
+    margin: auto 0;
+}
