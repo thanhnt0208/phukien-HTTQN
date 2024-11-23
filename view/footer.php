@@ -11,7 +11,7 @@
                 <p> <i class="fa-solid fa-envelope"></i>nghiandtps39970@gmail.com</p>
             </div>
             <div class="col-2">
-                <h3>Thông Tin</h3>
+                <h4>Thông Tin</h4>
                 <p>Về chúng tôi</p>
                 <p>Blog</p>
                 <p>Dịch vụ</p>
@@ -19,7 +19,7 @@
                 <p>Hỗ trợ</p>
             </div>
             <div class="col-3">
-                <h3>Chăm Sóc Khách Hàng</h3>
+                <h4>Chăm Sóc Khách Hàng</h4>
                 <p>Tư vấn</p>
                 <p>Khuyến mãi</p>
                 <p>Chính sách vận chuyển</p>
@@ -27,7 +27,7 @@
                 <p>Chính sách chung</p>
             </div>
             <div class="col-4">
-                <h3>Mạng Xã Hội</h3>
+                <h4>Mạng Xã Hội</h4>
                 <i class="fa-brands fa-facebook"></i> 
                 <i class="fa-brands fa-youtube"></i> 
                 <i class="fa-brands fa-square-instagram"></i>

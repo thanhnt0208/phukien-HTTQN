@@ -4,6 +4,20 @@ body {
     margin: 0;
     padding: 0;
 }
+.bt1{
+    text-align: center;
+    padding: 50px;
+
+
+}
+.bt1 button{
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    background-color: #fff;
+    color:#8F7D5E ;
+    border: 1px solid #8F7D5E;
+}
 /* Header */
 header {
     max-width: 1800px;
@@ -81,8 +95,12 @@ ul li a {
 }
 .bannerphu img {
     max-width: 100%;
+
+    height: 250; 
+
     height: 250px;
-    margin-top: 20px; 
+    margin-top: 50px; 
+
 }
 h3{
     font-size: 28px;
@@ -100,7 +118,11 @@ h3{
 
 .row {
     display: flex;
+
     padding-top: 50px;
+
+    padding-top: 30px;
+
     justify-content: space-around; 
 }
 .col4 {
@@ -160,6 +182,10 @@ h3{
 .col4 button:hover {
     background-color: #584c39;
 }
+
+.col4 button:hover {
+    background-color: #584c39;
+}
 /* footer */
 .container2{
     background-color: #BDAB8C;
@@ -174,6 +200,10 @@ h3{
 .Logo2 img {
     padding-left: 50px;
     width: 35%;
+}
+.h3{
+    font-size: 20px;
+    color: black;
 }
 .col-1 p i{
 padding-right: 10px;
