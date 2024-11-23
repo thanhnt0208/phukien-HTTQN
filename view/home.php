@@ -67,8 +67,8 @@
                 <button>Mua ngay</button>
                 <p class="sohang">Hàng còn: 12 cái</p>
             </div>
-            <button>xem tất cả</button>
         </div>
+        <button>xem tất cả</button>
         <img src="public/img/bannerphu.png" alt="">
         <h3>SẢN PHẨM NỮ</h3>
         <div class="row">
