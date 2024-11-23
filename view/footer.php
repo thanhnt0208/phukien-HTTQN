@@ -1,44 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        .container{
-            background-color: #BDAB8C;
-        }
-        .row{
-            margin: 0 auto;
-            display: flex;
-            width: 80%;
-            padding: 50px;
-            gap: 10%;
-        }
-        .Logo img {
-            padding-left: 50px;
-            width: 35%;
-        }
-       .col-1 p i{
-        padding-right: 10px;
-       }
-       .col-4 i{
-        padding-right: 10px;
-        font-size: 30px;
-       }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="row">
+
+
+    <div class="container2">
+        <div class="row2">
             <div class="col-1">
-                <div class="Logo">
-                    <img src="../public/img/Màu Be Cổ điển Hình tròn Thời trang Logo (2) 2.png" alt="">
+                <div class="Logo2">
+                    <img src="public/img/Màu Be Cổ điển Hình tròn Thời trang Logo (2) 2.png" alt="">
                 </div>
                 <p> <i class="fa-solid fa-house-chimney"> </i>Số 3, Quảng phát, Quảng tiến, Trảng bom, Đồng Nai</p>
                 <p> <i class="fa-solid fa-phone"></i> 0385345482</p>
@@ -69,5 +35,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>

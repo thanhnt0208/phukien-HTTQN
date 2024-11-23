@@ -131,4 +131,5 @@
                 <p class="sohang">Hàng còn: 12 cái</p>
             </div>
         </div>
-     </div>
+    </div>
+<?php include "footer.php" ?>
