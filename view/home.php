@@ -67,7 +67,9 @@
                 <button>Mua ngay</button>
                 <p class="sohang">Hàng còn: 12 cái</p>
             </div>
+            <button>xem tất cả</button>
         </div>
+        <img src="public/img/bannerphu.png" alt="">
         <h3>SẢN PHẨM NỮ</h3>
         <div class="row">
             <div class="col4">
@@ -131,5 +133,6 @@
                 <p class="sohang">Hàng còn: 12 cái</p>
             </div>
         </div>
+        <button>xem tất cả</button>
     </div>
 <?php include "footer.php" ?>
