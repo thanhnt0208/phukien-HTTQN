@@ -1,4 +1,9 @@
 <?php include "header.php" ?>
+<style>
+    .img1{
+    margin: 100px -70px;
+}
+</style>
 <body>
      <div class="bannerphu">
         <img src="public/img/logo phụ.png" alt="">
@@ -68,8 +73,10 @@
                 <p class="sohang">Hàng còn: 12 cái</p>
             </div>
         </div>
+        <div class="bt1">
         <button>xem tất cả</button>
-        <img src="public/img/bannerphu.png" alt="">
+        </div>
+        <img src="public/img/h99.png" alt="">
         <h3>SẢN PHẨM NỮ</h3>
         <div class="row">
             <div class="col4">
@@ -133,6 +140,8 @@
                 <p class="sohang">Hàng còn: 12 cái</p>
             </div>
         </div>
+        <div class="bt1">
         <button>xem tất cả</button>
+        </div>
     </div>
 <?php include "footer.php" ?>
