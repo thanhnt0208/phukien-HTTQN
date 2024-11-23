@@ -41,7 +41,7 @@
         </div>
     </header>
     <div class="banner">
-        <img src="public/img/banner.png" alt="">
+        <img src="public/img/banner.jpg" alt="">
     </div>
 </body>
 </html>
