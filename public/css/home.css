@@ -81,7 +81,12 @@ ul li a {
 }
 .bannerphu img {
     max-width: 100%;
+
     height: 250; 
+
+    height: 250px;
+    margin-top: 50px; 
+
 }
 h3{
     font-size: 28px;
@@ -99,7 +104,11 @@ h3{
 
 .row {
     display: flex;
+
     padding-top: 50px;
+
+    padding-top: 30px;
+
     justify-content: space-around; 
 }
 .col4 {
@@ -155,6 +164,37 @@ h3{
     transition: background-color 0.3s ease;
     margin-right: 20px;
 }
+
 .col4 button:hover {
     background-color: #584c39;
+}
+
+.col4 button:hover {
+    background-color: #584c39;
+}
+/* footer */
+.container2{
+    background-color: #BDAB8C;
+}
+.row2{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    padding: 50px;
+    gap: 10%;
+}
+.Logo2 img {
+    padding-left: 50px;
+    width: 35%;
+}
+.h3{
+    font-size: 20px;
+    color: black;
+}
+.col-1 p i{
+padding-right: 10px;
+}
+.col-4 i{
+padding-right: 10px;
+font-size: 30px;
 }
