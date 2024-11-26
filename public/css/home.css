@@ -117,12 +117,9 @@ h3{
 }
 
 .row {
-    display: flex;
-
+    display: block;
     padding-top: 50px;
-
     padding-top: 30px;
-
     justify-content: space-around; 
 }
 .col4 {

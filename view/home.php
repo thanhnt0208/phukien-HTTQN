@@ -33,8 +33,8 @@
                 
             </div>
             <?php } ?>
-        <div class="bt1">
+    </div>
+    <div class="bt1">
         <button>xem tất cả</button>
         </div>
-    </div>
 <?php include "footer.php" ?>
