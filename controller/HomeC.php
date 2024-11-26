@@ -1,5 +1,5 @@
 <?php
-include 'model/ProductM.php';
+include_once 'model/ProductM.php';
 
 switch ($action) {
     case '':
