@@ -9,7 +9,7 @@ function getAllProducts(){
 }
 function getManProducts() {
     global $conn;
-    $sql = "SELECT * FROM products ORDER BY id DESC LIMIT 8";
+    $sql = "SELECT * FROM product ORDER BY id DESC LIMIT 8";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -18,7 +18,7 @@ function getManProducts() {
 
 function getGirlProducts() {
     global $conn;
-    $sql = "SELECT * FROM products ORDER BY views DESC LIMIT 8";
+    $sql = "SELECT * FROM product ORDER BY views DESC LIMIT 8";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
