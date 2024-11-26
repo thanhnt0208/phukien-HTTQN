@@ -1,3 +1,3 @@
-<?php
-include "view/home.php";
+<?php 
+include "init/init.php";
 
