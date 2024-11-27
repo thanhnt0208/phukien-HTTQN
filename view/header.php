@@ -21,7 +21,6 @@
                         <ul>
                             <li><a href="">Ví - Túi Sách</a></li>
                             <li><a href="">Thắt Lưng</a></li>
-                            <li><a href="">Đồng Hồ</a></li>
                             <li><a href="">Nón</a></li>
                             <li><a href="">Nhẫn</a></li>
                             <li><a href="">Dây Chuyền</a></li>
