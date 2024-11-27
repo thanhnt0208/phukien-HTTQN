@@ -1,6 +1,6 @@
 <?php
 include_once 'model/ProductM.php';
-
+include_once 'model/CategoryM.php';
 switch ($action) {
     case '':
         $categories=getCategories();

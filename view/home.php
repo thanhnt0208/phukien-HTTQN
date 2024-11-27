@@ -9,8 +9,8 @@
         <div class="row">
             <?php foreach ($manProducts as $manProduct) { ?>
                 <div class="col4">
-                    <img src="public/img/<?= htmlspecialchars($manProduct['image']) ?>" alt="">
-                    <h4 class="name"><?= htmlspecialchars($manProduct['title']) ?></h4>
+                    <a href="index.php?action=detail&id=<?= htmlspecialchars($manProduct['id']) ?>"><img src="public/img/<?= htmlspecialchars($manProduct['image']) ?>" alt=""></a>
+                    <a href="index.php?action=detail&id=<?= htmlspecialchars($manProduct['id']) ?>"><h4 class="name"><?= htmlspecialchars($manProduct['detail']) ?></h4></a>
                     <p>Giá: <?= htmlspecialchars($manProduct['price']) ?></p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: <?= htmlspecialchars($manProduct['Quantity']) ?> cái</p>
@@ -20,13 +20,13 @@
         <div class="bt1">
         <button>xem tất cả</button>
         </div>
-        <img src="public/img/h99.png" alt="">
+        <img class="img1" src="public/img/h99.png" alt="">
         <h3>SẢN PHẨM NỮ</h3>
         <div class="row">
         <?php foreach ($grilProducts as $girlProduct) { ?>
                 <div class="col4">
-                <img src="public/img/<?= htmlspecialchars($girlProduct['image']) ?>" alt="">
-                <h4 class="name"><?= htmlspecialchars($girlProduct['title']) ?></h4>
+                <a href=""><img src="public/img/<?= htmlspecialchars($girlProduct['image']) ?>" alt=""></a>
+                <a href=""><h4 class="name"><?= htmlspecialchars($girlProduct['detail']) ?></h4></a>
                 <p>Giá: <?= htmlspecialchars($girlProduct['price']) ?></p>
                 <button>Mua ngay</button>
                 <p class="sohang">Hàng còn: <?= htmlspecialchars($girlProduct['Quantity']) ?> cái</p>

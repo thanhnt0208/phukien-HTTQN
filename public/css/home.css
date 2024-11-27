@@ -148,13 +148,13 @@ h3{
 .row {
     display: flex;
     padding-top: 50px;
-    
+
     justify-content: space-around; 
     flex-wrap: wrap;
     
 }
 .col4 {
-    max-width: 300px; 
+    max-width: 250px; 
     height: 350px;
     text-align: center; 
     border-radius: 10px; 
@@ -180,8 +180,11 @@ h3{
     font-weight: bold;
     margin: 10px 0;
     color: #000000;
+    text-decoration: none;
 }
-
+.col4 a{
+    text-decoration: none;
+}
 .col4 p {
     max-width: 50%;
     text-align: left;
@@ -214,6 +217,9 @@ h3{
 
 .col4 button:hover {
     background-color: #584c39;
+}
+.img1{
+    margin: 100px -80px;
 }
 /* footer */
 .container2{
