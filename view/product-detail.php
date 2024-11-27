@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../public/css/product-detail.css">
-    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+    
 </head>
 <body>
     <div class="container">
         <div class="name">
             <h4>VÍ NAM PIERRE CARDIN LW-P 157</h4>
         </div>
+        <?php foreach ($products as $product) {?>
         <div class="col">
             <div class="col6">
                 
@@ -25,9 +25,9 @@
                     <img src="./public/img/image (2).png" alt=""> 
                 </div>
         </div>
-        <div class="col4">
+        <div class="col5">
             <div class="price">
-                <h3>Giá: 2.098.000đ</h3>
+                <h3><?= htmlspecialchars($product['price']) ?></h3>
             </div>
             <div class="type">
                 <p>Loại Ví: </p>
@@ -44,6 +44,7 @@
                 <button><b>Mua Ngay</b></button>
                 <button><b>Thêm Vào Giỏ Hàng</b></button>
             </div>
+            <?php } ?>
             <div class="textproduct">
                     <p>
                         <strong>Hãng: Pierre cardin Jeans</strong> <br>
@@ -67,7 +68,7 @@
             </div>
         </div>
         <div class="comment">
-            <p class="name">ĐÁNH GIÁ SẢN PHẨM VÍ NAM PIERRE CARDIN LW-P 157</p>
+            <p class="name3">ĐÁNH GIÁ SẢN PHẨM VÍ NAM PIERRE CARDIN LW-P 157</p>
             <div class="flex">
                 <p class="danhgia">4
                     <ul>
@@ -185,6 +186,8 @@
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div>
+                
     </div>
+    <?php include 'footer.php' ?>
 </body>
 </html>

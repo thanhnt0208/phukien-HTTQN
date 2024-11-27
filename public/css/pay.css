@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f8f1eb;
+    background: #EFE9E6;
     color: #333;
 }
 
@@ -33,7 +33,7 @@ form input,
 form select,
 form textarea,
 .shipping input {
-    width: 100%;
+    width: 98%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
