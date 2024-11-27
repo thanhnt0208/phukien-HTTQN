@@ -20,7 +20,7 @@
         <div class="bt1">
         <button>xem tất cả</button>
         </div>
-        <img src="public/img/h99.png" alt="">
+        <img class="img1" src="public/img/h99.png" alt="">
         <h3>SẢN PHẨM NỮ</h3>
         <div class="row">
         <?php foreach ($grilProducts as $girlProduct) { ?>
