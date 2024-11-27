@@ -109,6 +109,35 @@ h3{
     color: #8F7D5E;
 
 }
+
+.row {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.row2 {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.hinh22{
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+.hinh20{
+    width: 100%; 
+   
+  
+
+}
+
 /* Container */
 .container {
     width: 90%;
@@ -261,3 +290,4 @@ font-size: 30px;
   .product-item button:hover {
     background-color: #bba781;
   }
+
