@@ -19,7 +19,7 @@
                     <li>
                         <a href="">DANH MỤC</a>
                         <ul>
-                            <li><a href="">Ví - Túi Sách</a></li>
+                            <li><a href="<?php echo $baseurl; ?>/index.php?action=Daychuyen&category_id=1">Ví - Túi Sách</a></li>
                             <li><a href="">Thắt Lưng</a></li>
                             <li><a href="">Đồng Hồ</a></li>
                             <li><a href="">Nón</a></li>

@@ -7,7 +7,5 @@ switch ($action) {
         
         break;
     
-    default:
-        # code...
-        break;
+    
 }
