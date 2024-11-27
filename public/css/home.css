@@ -4,6 +4,20 @@ body {
     margin: 0;
     padding: 0;
 }
+.bt1{
+    text-align: center;
+    padding: 50px;
+
+
+}
+.bt1 button{
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    background-color: #fff;
+    color:#8F7D5E ;
+    border: 1px solid #8F7D5E;
+}
 /* Header */
 header {
     max-width: 1800px;
@@ -36,6 +50,26 @@ ul li a {
     font-size: 16px;
     color: #fff;
 }
+
+.menu ul li ul{
+    background-color: #c4aa7e;
+    width: 150px;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px gray;
+    display: none;
+    z-index: 1;
+
+}
+.menu ul li ul li a{
+    color: #fff;
+}
+.menu ul li:hover>ul{
+    display: block;
+}
+
 .item {
     display: flex;
     align-items: center;
@@ -54,20 +88,26 @@ ul li a {
 }
 /* Home */
 .bannerphu {
-    display: flex; /* Kích hoạt Flexbox */
-    justify-content: center; /* Căn ngang */
-    align-items: center; /* Căn dọc */
-    height: 200px; /* Đặt chiều cao cố định nếu cần */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 200px; 
 }
 .bannerphu img {
-    max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
-    height: 250; /* Giữ tỷ lệ ảnh */
+    max-width: 100%;
+
+    height: 250; 
+
+    height: 250px;
+    margin-top: 50px; 
+
 }
 h3{
     font-size: 28px;
     text-align: center;
     padding: 30px;
     color: #8F7D5E;
+
 }
 
 .row {
@@ -97,3 +137,157 @@ h3{
   
 
 }
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    padding-top: 50px;
+    
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
+}
+.col4 {
+    max-width: 300px; 
+    height: 350px;
+    text-align: center; 
+    border-radius: 10px; 
+    padding: 3px;
+    margin-bottom: 25px;
+    background-color: #fff; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.col4:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.col4 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.col4 .name {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.col4 p {
+    max-width: 50%;
+    text-align: left;
+    color: #000000;
+}
+
+.col4 .sohang{
+    max-width: 50%;
+    text-align: left;
+    color: #747474;
+}
+
+.col4 button {
+    float: right; /* Căn nút sang bên phải */
+    clear: both; /* Đảm bảo không bị lỗi giao thoa nội dung */
+    background-color: #8F7D5E;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+.col4 button:hover {
+    background-color: #584c39;
+}
+
+.col4 button:hover {
+    background-color: #584c39;
+}
+/* footer */
+.container2{
+    background-color: #BDAB8C;
+}
+.row2{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    padding: 50px;
+    gap: 10%;
+}
+.Logo2 img {
+    padding-left: 50px;
+    width: 35%;
+}
+.h3{
+    font-size: 20px;
+    color: black;
+}
+.col-1 p i{
+padding-right: 10px;
+}
+.col-4 i{
+padding-right: 10px;
+font-size: 30px;
+}
+/* sp theo id danh muc */
+.product-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+  }
+  
+  .product-item button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #d4c49d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .product-item button:hover {
+    background-color: #bba781;
+  }
+

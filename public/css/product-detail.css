@@ -1,0 +1,211 @@
+/* css product-detail */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EFE9E6;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col{
+    width: 100%;
+    display: flex;
+
+}
+.col6{
+    width: 60%;
+    display: flex;
+
+}
+.khunglon img{
+    width: 500px;
+}
+.khungnho img{
+    width: 150px;
+    padding: 0 20px;
+}
+.col4{
+    width: 40%;
+}
+.soluong {
+    display: flex;
+}
+.soluong p{
+    padding-right: 10px;
+}
+.soluong input {
+    height: 20px;
+    margin: auto 0;
+}
+.addproduct {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    gap: 5px;
+}
+.addproduct button{
+    display: flex;
+    padding: 0 20px;
+    border-radius:  20px ;
+    align-items: center;
+    color: white;
+    background-color: #8F7D5E;
+}
+.button button{
+    padding: 8px;
+}
+.comment ul li{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.comment{
+    padding: -100px 0;
+}
+.comment ul{
+    display: flex;
+    gap: 10px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+.danhgia{
+    font-size: 25px;
+}
+.col3 .user {
+    display: flex;
+    gap: 10px;
+    }
+.col3 .user ul li{
+    list-style: none;
+    padding: -5px 0;
+    align-items: center;
+}
+.user h4{
+    padding: 0 0  15px 0;
+}
+.col3 .user ul{
+    padding: 0 5px;
+    margin: -10px 0;
+}
+.col3 .star{
+    display: flex;
+    list-style: none;
+    padding: 0 5px;
+}
+.quality{
+    display: flex;
+}
+.comment .flex,
+.col3 .user,
+.col3 .star,
+.col3 .quality {
+    margin: 0; /* Xóa khoảng cách mặc định */
+    padding: 0; /* Xóa khoảng cách bên trong mặc định */
+}
+
+.comment .flex ul,
+.col3 .user ul,
+.col3 .star,
+.col3 .quality {
+    margin-bottom: 5px; /* Khoảng cách nhỏ giữa các phần */
+}
+
+.col3 .user h4 {
+    margin: 0;
+    padding-left: 5px; /* Khoảng cách nhẹ giữa biểu tượng và tên người dùng */
+}
+
+.col3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Khoảng cách đều giữa các phần */
+}
+
+.col3 .user {
+    display: flex;
+    align-items: center; /* Căn giữa biểu tượng và tên người dùng theo chiều dọc */
+}
+.vietdanhgia{
+    background-color: #8F7D5E;
+    width: 179px;
+    height: 55px;
+    border-radius: 20px;
+}
+hr{
+    border: #8F7D5E 1px solid;
+}
+.row {
+    display: flex;
+    padding-top: 50px;
+    
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
+}
+.col4 {
+    max-width: 300px; 
+    height: 350px;
+    text-align: center; 
+    border-radius: 10px; 
+    padding: 3px;
+    margin-bottom: 25px;
+    background-color: #fff; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.col4:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.col4 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.col4 .name {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.col4 p {
+    max-width: 50%;
+    text-align: left;
+    color: #000000;
+}
+
+.col4 .sohang{
+    max-width: 50%;
+    text-align: left;
+    color: #747474;
+}
+
+.col4 button {
+    float: right; /* Căn nút sang bên phải */
+    clear: both; /* Đảm bảo không bị lỗi giao thoa nội dung */
+    background-color: #8F7D5E;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+.col4 button:hover {
+    background-color: #584c39;
+}
+
+.col4 button:hover {
+    background-color: #584c39;
+}
