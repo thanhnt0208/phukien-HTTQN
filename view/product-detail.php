@@ -1,4 +1,12 @@
-<?php include "header.php" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
     <div class="container">
         <div class="name">
             <h4>VÍ NAM PIERRE CARDIN LW-P 157</h4>
@@ -8,16 +16,16 @@
             <div class="col6">
                 
                 <div class="khunglon">
-                    <img src="public/img/<?= htmlspecialchars($product['image']) ?>" alt="">
+                    <img src="./public/img/Frame 11.png" alt="">
                 </div>       
                 <div class="khungnho">
-                    <img src="public/img/Frame 17.png" alt=""> 
-                    <img src="public/img/image.png" alt=""> 
-                    <img src="public/img/image (1).png" alt=""> 
-                    <img src="public/img/image (2).png" alt=""> 
+                    <img src="./public/img/Frame 17.png" alt=""> 
+                    <img src="./public/img/image.png" alt=""> 
+                    <img src="./public/img/image (1).png" alt=""> 
+                    <img src="./public/img/image (2).png" alt=""> 
                 </div>
         </div>
-        <div class="col4">
+        <div class="col5">
             <div class="price">
                 <h3><?= htmlspecialchars($product['price']) ?></h3>
             </div>
@@ -60,7 +68,7 @@
             </div>
         </div>
         <div class="comment">
-            <p class="name">ĐÁNH GIÁ SẢN PHẨM VÍ NAM PIERRE CARDIN LW-P 157</p>
+            <p class="name3">ĐÁNH GIÁ SẢN PHẨM VÍ NAM PIERRE CARDIN LW-P 157</p>
             <div class="flex">
                 <p class="danhgia">4
                     <ul>
@@ -141,38 +149,38 @@
         <hr>
         <div class="row">
                 <div class="col4">
-                    <img src="public/img/h10.png" alt="">
+                    <img src="./public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div>
                 <div class="col4">
-                    <img src="public/img/h10.png" alt="">
+                    <img src="./public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="public/img/h10.png" alt="">
+                    <img src="./public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="public/img/h10.png" alt="">
+                    <img src="./public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="public/img/h10.png" alt="">
+                    <img src="./public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="public/img/h10.png" alt="">
+                    <img src="./public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>

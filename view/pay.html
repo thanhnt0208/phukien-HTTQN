@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/pay.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h3>THÔNG TIN NHẬN HÀNG</h3>
+            <form>
+                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Họ và tên" />
+                <div class="phone-group">
+                    <div class="phone-group">
+                        <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/30px-Flag_of_Vietnam.svg.png" alt="Cờ Việt Nam">
+                        <input type="tel" placeholder="Số điện thoại (tùy chọn)" />
+                    </div>                    
+                </div>
+                <input type="text" placeholder="Địa chỉ (tùy chọn)" />
+                <select>
+                    <option value="">Tỉnh thành</option>
+                </select>
+                <select>
+                    <option value="">Quận huyện (tùy chọn)</option>
+                </select>
+                <select>
+                    <option value="">Phường xã (tùy chọn)</option>
+                </select>
+                <textarea placeholder="Ghi chú (tùy chọn)"></textarea>
+            </form>
+        </div>
+    
+        <div class="right-section">
+            <div class="shipping">
+                <h3>VẬN CHUYỂN</h3>
+                <input type="text" placeholder="Vui lòng nhập thông tin giao hàng" />
+            </div>
+            <div class="payment">
+                <h3>THANH TOÁN</h3>
+                <label>
+                    <input type="radio" name="payment" />
+                    Chuyển khoản
+                </label>
+                <label>
+                    <input type="radio" name="payment" />
+                    Thu hộ (COD)
+                </label>
+            </div>
+            <div class="order-summary">
+                <h3>ĐƠN HÀNG</h3>
+                <div class="item">
+                    <img src="../public/img/h10.png" alt="Sản phẩm" />
+                    <div>
+                        <p>Ví nam pierre cardin LW-P 157</p>
+                        <p>Số lượng: 1</p>
+                    </div>
+                </div>
+                <div class="cost">
+                    <p>Tạm tính: 2.098.000₫</p>
+                    <p>Phí vận chuyển: 40.000₫</p>
+                    <p class="total">Tổng cộng: 2.138.000₫</p>
+                </div>
+                <a href="../home.php">Quay về giỏ hàng</a>
+                <button>Thanh toán</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
