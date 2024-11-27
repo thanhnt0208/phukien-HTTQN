@@ -27,9 +27,9 @@ function getGirlProducts() {
 
 function getiddmProducts($category_id) {
     global $conn;
-    $sql = "SELECT * FROM product WHERE Category_id = :Category_id";
+    $sql = "SELECT * FROM product WHERE Categories_id = :Categories_id";
     $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':Category_id', $category_id);
+    $stmt->bindParam(':Categories_id', $category_id);
     $stmt->execute();
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $products;
