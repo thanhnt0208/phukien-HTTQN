@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/css/product-detail.css">
-    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
-</head>
-<body>
+<?php include "header.php" ?>
     <div class="container">
         <div class="name">
             <h4>VÍ NAM PIERRE CARDIN LW-P 157</h4>
         </div>
+        <?php foreach ($products as $product) {?>
         <div class="col">
             <div class="col6">
                 
                 <div class="khunglon">
-                    <img src="./public/img/Frame 11.png" alt="">
+                    <img src="public/img/<?= htmlspecialchars($product['image']) ?>" alt="">
                 </div>       
                 <div class="khungnho">
-                    <img src="./public/img/Frame 17.png" alt=""> 
-                    <img src="./public/img/image.png" alt=""> 
-                    <img src="./public/img/image (1).png" alt=""> 
-                    <img src="./public/img/image (2).png" alt=""> 
+                    <img src="public/img/Frame 17.png" alt=""> 
+                    <img src="public/img/image.png" alt=""> 
+                    <img src="public/img/image (1).png" alt=""> 
+                    <img src="public/img/image (2).png" alt=""> 
                 </div>
         </div>
         <div class="col4">
             <div class="price">
-                <h3>Giá: 2.098.000đ</h3>
+                <h3><?= htmlspecialchars($product['price']) ?></h3>
             </div>
             <div class="type">
                 <p>Loại Ví: </p>
@@ -44,6 +36,7 @@
                 <button><b>Mua Ngay</b></button>
                 <button><b>Thêm Vào Giỏ Hàng</b></button>
             </div>
+            <?php } ?>
             <div class="textproduct">
                     <p>
                         <strong>Hãng: Pierre cardin Jeans</strong> <br>
@@ -148,43 +141,45 @@
         <hr>
         <div class="row">
                 <div class="col4">
-                    <img src="./public/img/h10.png" alt="">
+                    <img src="public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div>
                 <div class="col4">
-                    <img src="./public/img/h10.png" alt="">
+                    <img src="public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="./public/img/h10.png" alt="">
+                    <img src="public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="./public/img/h10.png" alt="">
+                    <img src="public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="./public/img/h10.png" alt="">
+                    <img src="public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div><div class="col4">
-                    <img src="./public/img/h10.png" alt="">
+                    <img src="public/img/h10.png" alt="">
                     <h4 class="name"></h4>
                     <p>Giá: </p>
                     <button>Mua ngay</button>
                     <p class="sohang">Hàng còn: cái</p>
                 </div>
+                
     </div>
+    <?php include 'footer.php' ?>
 </body>
 </html>

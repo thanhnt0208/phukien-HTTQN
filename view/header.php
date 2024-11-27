@@ -15,7 +15,7 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a href="index.php">TRANG CHỦ</a></li>
                     <li>
                         <a href="">DANH MỤC</a>
                         <ul>
