@@ -19,12 +19,20 @@
                     <li>
                         <a href="">DANH MỤC</a>
                         <ul>
+
+                            <li><a href="">Ví - Túi Sách</a></li>
+                            <li><a href="">Thắt Lưng</a></li>
+                            <li><a href="">Nón</a></li>
+                            <li><a href="">Nhẫn</a></li>
+                            <li><a href="">Dây Chuyền</a></li>
+
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=1">Ví - Túi Sách</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=2">Thắt Lưng</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=3">Đồng Hồ</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=4">Nón</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=5">Nhẫn</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=6">Dây Chuyền</a></li>
+
                         </ul>
                     </li>
 
