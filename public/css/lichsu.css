@@ -80,7 +80,7 @@ h1 {
 }
 
 .status-text {
-    color: #795548;
+    color: #8F7D5E;
     font-weight: 500;
     margin-right: 10px;
 }
@@ -133,28 +133,31 @@ button {
 }
 
 button.review {
-    background-color: #5bc0de;
+    background-color: #8F7D5E;
     color: #fff;
 }
 
 button.review:hover {
-    background-color: #31b0d5;
+    background-color: #8f8470;
 }
 
 button.refund {
-    background-color: #f0ad4e;
+    background-color: #E5C793;
     color: #fff;
 }
 
 button.refund:hover {
-    background-color: #ec971f;
+    background-color: rgb(175, 159, 134);
 }
 
 button.more {
-    background-color: #5e5e5e;
+    background-color: #A5906C;
     color: #fff;
 }
 
 button.more:hover {
-    background-color: #424242;
+    background-color: #A5906C;
+}
+hr{
+    border: #8F7D5E 1px solid;
 }
