@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Phụ Kiện Nam</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="banner">
-      <img src="img/image 7.jpg" alt="Banner Phụ Kiện Nam">
-    </div>
-  </header>
+<?php include 'header.php' ?>
 
   <main>
     <section class="product-section">
@@ -63,5 +50,6 @@
     </div>
     </section>
   </main>
-</body>
+  <?php include 'header.php' ?>
+
 </html>

@@ -2,10 +2,10 @@
 include_once "model/ProductM.php";
 
 switch ($action) {
-    case 'iphone':
+    case 'Daychuyen':
         $category_id = $_GET['category_id'] ?? null;
         $iddmProducts = getiddmProducts($category_id);
-        include "views/iphone.php";
+        include "views/Daychuyen.php";
             
     case 'laptop':
         $category_id = $_GET['category_id'] ?? null;
