@@ -25,6 +25,16 @@ function getGirlProducts() {
     return $products;
 }
 
+function getProduct($id) {
+    global $conn;
+    $sql = "SELECT * FROM product WHERE id = :id";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':id', $id);
+    $stmt->execute();
+    $product = $stmt->fetch(PDO::FETCH_ASSOC);
+    return $product;
+}
+
 function getiddmProducts($category_id) {
     global $conn;
     $sql = "SELECT * FROM product WHERE Categories_id = :Categories_id";
