@@ -58,9 +58,10 @@ h1 {
 }
 
 .order-details span {
-    color: #007bff;
+    color: #070808;
     text-decoration: underline;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .order-status {
