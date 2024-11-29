@@ -1,4 +1,5 @@
-<?php include "layout/header.php" ?>
+<?php include "layout/header.php" 
+?>
 <body>
      <div class="bannerphu">
         <img src="public/img/logo phụ.png" alt="">
