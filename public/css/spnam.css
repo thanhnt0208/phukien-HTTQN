@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -62,7 +62,7 @@ body {
     text-align: left;
 }
 
-.buy-button {
+.button {
     
     background-color: #d2b48c;
     color: white;
@@ -80,10 +80,42 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.buy-button:hover {
+.button:hover {
     background-color: #b89c7e;
 }
 
-.buy-button:active {
+.button:active {
     background-color: #a07d63;
+}
+
+
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.page, .dots {
+    display: flex;
+    padding: 10px 15px;
+    background-color: #c3b091;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.page.active {
+    background-color: #7c674d;
+}
+
+.page:hover {
+    background-color: #a28d6d;
+}
+
+.dots {
+    background-color: transparent;
+    color: #7c674d;
+    cursor: default;
 }
