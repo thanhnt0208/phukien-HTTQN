@@ -1,0 +1,24 @@
+.daux1,.daux2{
+    text-decoration: none;
+    font-size: 20px;
+}
+.tagname{
+    list-style: none;
+}
+.col88{
+    list-style: none;
+}
+.tensp{
+    width: 280px;
+    float: right;
+}
+.daux1 li{
+    width: 2%;
+    float: right;
+}
+.cart2{
+    width: 100px;
+}
+.counter{
+    width: 70px;
+}
