@@ -1,7 +1,7 @@
 <?php
 include "init/config.php";
 
-session_start(); // Start the session for storing user data
+session_start();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Collect and sanitize form input
