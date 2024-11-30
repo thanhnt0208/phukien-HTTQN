@@ -1,9 +1,9 @@
-<?php include "layout/header.php" 
-?>
+<?php include "layout/header.php" ?>
 <body>
      <div class="bannerphu">
         <img src="public/img/logo phụ.png" alt="">
      </div>
+
      <div class="container">
         <h3 class= "spn">SẢN PHẨM NAM</h3>
         <div class="row">

@@ -26,7 +26,7 @@ body {
     width: 150px;
     padding: 0 20px;
 }
-.col-4-1{
+.col4-1{
     width: 40%;
 }
 .soluong {
@@ -147,7 +147,7 @@ hr{
     flex-wrap: wrap;
     
 }
-.col-4-1 {
+.col4-1 {
     max-width: 300px; 
     height: 350px;
     text-align: center; 
@@ -158,37 +158,37 @@ hr{
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-.col-4-1:hover {
+.col4-1:hover {
     transform: translateY(-5px); 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
 }
 
-.col-4-1 img {
+.col4-1 img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-.col-4-1 .name3 {
+.col4-1 .name3 {
     font-size: 1.2rem; 
     font-weight: bold;
     margin: 10px 0;
     color: #000000;
 }
 
-.col-4-1 p {
+.col4-1 p {
     max-width: 50%;
     text-align: left;
     color: #000000;
 }
 
-.col-4-1 .sohang{
-max-width: 50%;
+.col4-1 .sohang{
+    max-width: 50%;
     text-align: left;
     color: #747474;
 }
 
-.col-4-1 button {
+.col4-1 button {
     float: right; /* Căn nút sang bên phải */
     clear: both; /* Đảm bảo không bị lỗi giao thoa nội dung */
     background-color: #8F7D5E;
@@ -202,10 +202,10 @@ max-width: 50%;
     margin-right: 20px;
 }
 
-.col-4-1 button:hover {
+.col4-1 button:hover {
     background-color: #584c39;
 }
 
-.col-4-1 button:hover {
+.col4-1 button:hover {
     background-color: #584c39;
 }

@@ -1,113 +1,112 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f1eb;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f7f1eb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  margin-top: 10px;
+  color: #666;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+form fieldset {
+  border: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+legend {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-actions {
+  margin-top: 20px;
+}
+
+.btn-submit,
+.btn-cancel {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: #8a6d3b;
+  color: #fff;
   
-  .form-container {
-    background-color: #fff;
-    padding: 20px 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
-  }
-  
-  h1 {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  p {
-    margin-top: 10px;
-    color: #666;
-  }
-  
-  p a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  p a:hover {
-    text-decoration: underline;
-  }
-  
-  form fieldset {
-    border: none;
-    padding: 0;
-    margin-top: 20px;
-  }
-  
-  legend {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    text-align: left;
-    margin-top: 10px;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  input[type="email"],
-  input[type="text"],
-  input[type="tel"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  input[type="email"]:focus,
-  input[type="text"]:focus,
-  input[type="tel"]:focus,
-  input[type="password"]:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  .form-actions {
-    margin-top: 20px;
-  }
-  
-  .btn-submit,
-  .btn-cancel {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-  }
-  
-  .btn-submit {
-    background-color: #8a6d3b;
-    color: #fff;
-    
-  }
-  
-  .btn-cancel {
-    background-color: #ccc;
-    color: #333;
-    margin-left: 50px;
-  }
-  
-  .btn-submit:hover {
-    background-color: #70582e;
-  }
-  
-  .btn-cancel:hover {
-    background-color: #999;
-  }
-  
+}
+
+.btn-cancel {
+  background-color: #ccc;
+  color: #333;
+  margin-left: 50px;
+}
+
+.btn-submit:hover {
+  background-color: #70582e;
+}
+
+.btn-cancel:hover {
+  background-color: #999;
+}

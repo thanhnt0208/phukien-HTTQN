@@ -91,43 +91,23 @@ select {
 </head>
 <body>
   <div class="form-container">
-    <h1>Thêm Sản Phẩm</h1>
-    <form>
+    <h1>Thêm Danh mục</h1>
+    <form action="postcategory" method="post" enctype="multipart/form-data">
       <label for="title">Title:</label>
-      <input type="text" id="title" placeholder="Enter product title">
-
-      <div class="row">
-        <div class="col">
-          <label for="price">Price:</label>
-          <input type="number" id="price" placeholder="Enter product price">
-        </div>
-        <div class="col">
-          <label for="sale">Sale:</label>
-          <input type="number" id="sale" placeholder="Enter sale percentage">
-        </div>
-      </div>
-
-      <label for="description">Description:</label>
-      <textarea id="description" placeholder="Enter product description"></textarea>
-
+      <input type="text" id="name" name="name" value="<?= $name ?? "" ?>" placeholder="Enter product title">
+      
       <label for="image">Image:</label>
-      <input type="file" id="image">
-
-      <label for="detail">Detail:</label>
-      <textarea id="detail" placeholder="Enter product detail"></textarea>
-
-        <label for="category">Category:</label>
-        <select id="category">
-            <option value="" disabled selected>Chọn danh mục</option>
-            <option value="vi-tui-sach">Ví-Túi Sách</option>
-            <option value="that-lung">Thắt Lưng</option>
-            <option value="non">Nón</option>
-            <option value="nhan">Nhẫn</option>
-            <option value="day-chuyen">Dây Chuyền</option>
-        </select>
+      <input type="file" id="image" name="image">
+        <?php if(isset($errors)): ?>
+            <ul class="text-danger">
+                <?php foreach ($errors as $error): ?>
+                    <li><?= $error ?></li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
 
 
-      <button type="submit">Add Product</button>
+      <button type="submit">Add Category</button>
     </form>
   </div>
 </body>
