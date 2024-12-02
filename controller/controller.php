@@ -5,3 +5,4 @@ include 'CategoryidC.php';
 include 'DetailC.php';
 include 'AuthC.php';
 include 'CategoryC.php';
+include 'CartC.php';
