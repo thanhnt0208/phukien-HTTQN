@@ -12,7 +12,7 @@
                     <a href="index.php?action=detail&id=<?= htmlspecialchars($manProduct['id']) ?>"><img src="public/img/<?= htmlspecialchars($manProduct['image']) ?>" alt=""></a>
                     <a href="index.php?action=detail&id=<?= htmlspecialchars($manProduct['id']) ?>"><h4 class="name"><?= htmlspecialchars($manProduct['detail']) ?></h4></a>
                     <p>Giá: <?= htmlspecialchars(number_format($manProduct['price'], 0, '', ',')) ?>đ</p>
-                    <button>Mua ngay</button>
+                    <a href="<?php echo $baseurl?>/allmen"><button >xem tất cả</button></a>
                     <p class="sohang">Hàng còn: <?= htmlspecialchars($manProduct['Quantity']) ?> cái</p>
                 </div>
             <?php } ?>
@@ -29,7 +29,7 @@
                 <a href="index.php?action=detail&id=<?= htmlspecialchars($girlProduct['id']) ?>"><h4 class="name"><?= htmlspecialchars($girlProduct['detail']) ?></h4></a>
                 <p>Giá: <?= htmlspecialchars(number_format($girlProduct['price'], 0, '', ',')) ?>đ</p>
 
-                <button>Mua ngay</button>
+                <a href="<?php echo $baseurl?>/allgirl"><button >xem tất cả</button></a>
                 <p class="sohang">Hàng còn: <?= htmlspecialchars($girlProduct['Quantity']) ?> cái</p>
                 
             </div>

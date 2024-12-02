@@ -7,7 +7,14 @@
             $products = getAllProducts();
             include 'view/admin/adminsp.php';
             break;
-
+        case 'allgirl':
+            $allGirlProducts = getAllGirlProducts();
+            include 'view/allgirl.php';
+            break;
+        case 'allmen':
+            $allMenProducts = getAllMenProducts();
+            include 'view/allmen.php';
+            break;  
         case "addproduct":
             $categories = getCategories();
             include "view/admin/addP.php";
