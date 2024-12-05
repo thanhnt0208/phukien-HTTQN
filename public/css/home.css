@@ -346,6 +346,7 @@ font-size: 30px;
     align-items: center;
     color: white;
     background-color: #8F7D5E;
+    height: 38px;
 }
 .button button{
     padding: 8px;
