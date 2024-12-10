@@ -182,6 +182,7 @@ ul li a {
     margin: 10px 0;
     color: #000000;
     text-decoration: none;
+    height: 40px;
 }
 .col4 a{
     text-decoration: none;
@@ -339,6 +340,9 @@ font-size: 30px;
     height: 35px;
     gap: 5px;
 }
+.addproduct a {
+    text-decoration:none;
+}
 .addproduct button{
     display: flex;
     padding: 0 20px;
@@ -363,6 +367,9 @@ font-size: 30px;
 .comment ul{
     display: flex;
     gap: 10px;
+}
+.star li i{
+    color: rgb(225, 225, 48);
 }
 .flex{
     display: flex;
@@ -459,6 +466,12 @@ hr{
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
+.col4-1 a{
+    color: black;
+    text-decoration: none;
+}
+
+
 .col4-1:hover {
     transform: translateY(-5px); 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
@@ -511,3 +524,236 @@ hr{
 .col4-1 button:hover {
     background-color: #584c39;
 }
+/* cart */
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.product-info p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.counter button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.counter button:hover {
+    background-color: #bbb;
+}
+
+.counter span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 15px;
+}
+
+/* Footer giỏ hàng */
+.cart-footer {
+    padding: 15px 20px;
+    background-color: #A5906C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 1px solid #d3c7a7;
+}
+
+.cart-footer button {
+    background-color: #A5906C;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-footer button:hover {
+    background-color: #b2894a;
+}
+/* Biểu tượng xóa sản phẩm */
+.delete-button {
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+    color: #e74c3c;
+}
+/* pay */
+
+.containerr {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Phần thông tin nhận hàng */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section input, 
+.section select, 
+.section textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Phần vận chuyển và thanh toán */
+.shipping, .payment {
+    margin-bottom: 20px;
+}
+
+.shipping input, .payment input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-summary table th, .order-summary table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.order-summary table th {
+    background-color: #f4f4f4;
+}
+
+.order-summary table td img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Cải tiến thẻ input cho số lượng */
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Nút xóa */
+.delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #e63946;
+}
+
+/* Tổng cộng */
+.cost {
+    margin-top: 15px;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.order-summary a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.order-summary a:hover {
+    text-decoration: underline;
+}
+
+.order-summary button {
+    padding: 12px;
+    background-color: #d4c2a1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.order-summary button:hover {
+    background-color: #c2a589;
+    box-shadow: #747474;
+}
+
+
