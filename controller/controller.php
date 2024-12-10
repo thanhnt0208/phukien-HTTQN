@@ -6,3 +6,4 @@ include 'DetailC.php';
 include 'AuthC.php';
 include 'CategoryC.php';
 include 'CartC.php';
+include 'OrderC.php';
