@@ -53,6 +53,7 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
          
                 <p class="name3">ĐÁNH GIÁ SẢN PHẨM VÍ NAM PIERRE CARDIN LW-P 157</p>
             <div class="comment">
@@ -60,6 +61,15 @@
                     <p class="danhgia">
                         <ul>
                             <li><i class="fa-solid fa-star"  ></i ></li >
+=======
+            <div class="comment">
+                <p class="name3">ĐÁNH GIÁ SẢN PHẨM VÍ NAM PIERRE CARDIN LW-P 157</p>
+                <div class="flex">
+                    <p class="danhgia">
+                        <ul>
+                            <li>4</li>
+                            <li><i class="fa-solid fa-star"></i></li>
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><i class="fa-solid fa-star"></i></li>

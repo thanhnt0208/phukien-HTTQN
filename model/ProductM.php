@@ -28,6 +28,37 @@ function getGirlProducts() {
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $products;
 }
+function getAllGirlProducts() {
+    global $conn;
+    $sql = "SELECT * FROM product WHERE SEX = :nu";
+    $stmt = $conn->prepare($sql);
+    $sex = 'nu';
+    $stmt->bindParam(':nu', $sex);
+    $stmt->execute();
+    $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $products;
+}
+
+function getAllMenProducts() {
+    global $conn;
+    $sql = "SELECT * FROM product WHERE SEX = :nam";
+    $stmt = $conn->prepare($sql);
+    $sex = 'nam';
+    $stmt->bindParam(':nam', $sex);
+    $stmt->execute();
+    $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $products;
+}
+
+function getProduct($id) {
+    global $conn;
+    $sql = "SELECT * FROM product WHERE id = :id";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':id', $id);
+    $stmt->execute();
+    $product = $stmt->fetch(PDO::FETCH_ASSOC);
+    return $product;
+}
 
 function getAllGirlProducts() {
     global $conn;

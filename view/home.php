@@ -12,7 +12,11 @@
                     <a href="index.php?action=detail&id=<?= htmlspecialchars($manProduct['id']) ?>"><img src="public/img/<?= htmlspecialchars($manProduct['image']) ?>" alt=""></a>
                     <a href="index.php?action=detail&id=<?= htmlspecialchars($manProduct['id']) ?>"><h4 class="name"><?= htmlspecialchars($manProduct['detail']) ?></h4></a>
                     <p>Giá: <?= htmlspecialchars(number_format($manProduct['price'], 0, '', ',')) ?>đ</p>
+<<<<<<< HEAD
                     <button>Mua ngay</button>
+=======
+                    <a href="<?php echo $baseurl?>/allmen"><button >xem tất cả</button></a>
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
                     <p class="sohang">Hàng còn: <?= htmlspecialchars($manProduct['Quantity']) ?> cái</p>
                 </div>
             <?php } ?>
@@ -29,7 +33,11 @@
                 <a href="index.php?action=detail&id=<?= htmlspecialchars($girlProduct['id']) ?>"><h4 class="name"><?= htmlspecialchars($girlProduct['detail']) ?></h4></a>
                 <p>Giá: <?= htmlspecialchars(number_format($girlProduct['price'], 0, '', ',')) ?>đ</p>
 
+<<<<<<< HEAD
                 <button>Mua ngay</button>
+=======
+                <a href="<?php echo $baseurl?>/allgirl"><button >xem tất cả</button></a>
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
                 <p class="sohang">Hàng còn: <?= htmlspecialchars($girlProduct['Quantity']) ?> cái</p>
                 
             </div>

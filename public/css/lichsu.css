@@ -58,9 +58,16 @@ h1 {
 }
 
 .order-details span {
+<<<<<<< HEAD
     color: #007bff;
     text-decoration: underline;
     cursor: pointer;
+=======
+    color: #070808;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
 }
 
 .order-status {

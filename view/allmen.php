@@ -1,4 +1,5 @@
 <?php include "layout/header.php" ?>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +16,9 @@
     
 </body>
 </html>
+=======
+
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
 <div class="row">
                 <?php foreach ($allMenProducts as $allMenProduct) { ?>
                     <div class="col4-1">

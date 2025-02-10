@@ -1,4 +1,8 @@
+<<<<<<< HEAD
     <?php
+=======
+<?php
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
     include_once "model/ProductM.php";
     include_once "model/CategoryM.php";
 
@@ -14,7 +18,11 @@
         case 'allmen':
             $allMenProducts = getAllMenProducts();
             include 'view/allmen.php';
+<<<<<<< HEAD
             break;    
+=======
+            break;  
+>>>>>>> c892c6556ca3073b690b20c25219f5ab52c4fb8b
         case "addproduct":
             $categories = getCategories();
             include "view/admin/addP.php";
