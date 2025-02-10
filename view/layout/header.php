@@ -15,13 +15,13 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a href="index.php">TRANG CHỦ</a></li>
                     <li>
                         <a href="">DANH MỤC</a>
                         <ul>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=1">Ví - Túi Sách</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=2">Thắt Lưng</a></li>
-                            <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=3">Đồng Hồ</a></li>
+                            
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=4">Nón</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=5">Nhẫn</a></li>
                             <li><a href="<?php echo $baseurl; ?>/index.php?action=iddm&Categories_id=6">Dây Chuyền</a></li>
@@ -35,7 +35,7 @@
             <div class="item">
                 <input type="text">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-user"></i>
+                <a href="<?php echo $baseurl?>/login"><i class="fa-solid fa-user"></i></a>
                 <i class="fa-solid fa-cart-shopping"></i>
             </div>
         </div>

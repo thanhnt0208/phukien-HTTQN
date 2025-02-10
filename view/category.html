@@ -3,73 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh mục</title>
-    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
-
+    <title>Admin Panel</title>
     <style>
-        body {
+    .sidebar {
+        width: 250px;
+        height: 100vh;
+        background-color: #e8d5c4;
+        color: rgb(17, 15, 15);
+        padding: 20px;
+        position: fixed;
+    }
+    
+    .sidebar h2 {
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .sidebar ul {
+        list-style: none;
+    }
+    
+    .sidebar ul li {
+        margin-bottom: 15px;
+    }   
+    
+    .sidebar ul li a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.1em;
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .sidebar ul li a:hover {
+        background-color: #b6a07a;
+    }
+    /*main*/
+    body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #fdf5f0;
         }
-
-        header {
-            background-color: #c5aa89;
-            color: white;
-            padding: 10px 0;
+        .col-75{
+            float: right;
+            width: 81%;
         }
-
-        header .container .rowt {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 170px 0 170px;
-        }
-
-        header .logo {
-            display: flex;
-           
-        }
-
-        header .logo img {
-            width: 70px;
-            height: auto;
-            margin-right: 10px;
-            
-        }
-
-        header nav {
-            margin-right: 500px;
-        }
-
-        header nav a{
-            margin-right: 20px;
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-        }
-
         
-        header .user button {
-            padding: 5px 10px;
-            background-color: white;
-            color: #c5aa89;
-            border: none;
-            border-radius: 5px;
-            
-        }
 
         .search {
-            padding: 20px;
+            margin: 0px;
+            padding: 0px 20px 0px 20px ;
             background-color: #f9f2eb;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .search h2 {
-            margin: 0;
+        .search h1 {
+            text-align: center;
         }
 
         .search1 input {
@@ -79,8 +73,8 @@
         }
 
         table {
-            width: 100%;
-            margin: 20px auto;
+           width: 100%;
+            
             border-collapse: collapse;
         }
 
@@ -125,38 +119,46 @@
             color: white;
         }
 
-        
+        .col-75 .addcategory{
+            background-color: #8F7D5E;
+            color: white;
+            border: none;
+            padding: 7px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .col-75 .addcategory:hover{
+            background-color: #b6a07a;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="rowt">
-            <div class="logo">
-                <img src="../public/img/Màu Be Cổ điển Hình tròn Thời trang Logo (2) 1.png" alt="Logo">
-            </div>
-            <nav class="dm1">
-                <a href="#">DANH MỤC</a>
-                <a href="#">SẢN PHẨM</a>
-            </nav>
-            <div class="user">
-                <span>Chào bạn,</span>
-                <button>Đăng xuất</button>
-
-            </div>
-            </div>
-        </div>
-    </header>
-
+    
+    <div class="col-25">
+    <div class="sidebar">
+        <h2>Admin Panel</h2>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#users">Quản lý người dùng</a></li>
+            <li><a href="adminsp.html">Quản lý sản phẩm</a></li>
+            <li><a href="category.html">Quản lý danh mục</a></li>
+            <li><a href="#settings">Cài đặt</a></li>
+            <li><a href="#logout">Đăng xuất</a></li>
+        </ul>
+    </div>
+    </div>
+ 
     <main>
+        
+        <div class="col-75">
         <div class="search">
-            <h2>Danh mục</h2>
+            <h1>Danh mục</h1>
             <div class="search1">
                 <input type="text" placeholder="Search">
                 <button>Search</button>
             </div>
         </div>
-
+        <button class="addcategory">Thêm danh mục</button>
         <table>
             <thead>
                 <tr>
@@ -214,6 +216,7 @@
                 </tr>
             </tbody>
         </table>
+        </div>
     </main>
 </body>
 </html>

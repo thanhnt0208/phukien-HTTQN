@@ -1,11 +1,13 @@
 <?php
 include_once 'model/ProductM.php';
-
+include_once 'model/CategoryM.php';
 switch ($action) {
     case '':
         $categories=getCategories();
         $manProducts = getManProducts();
         $grilProducts = getGirlProducts();
+        $grilProducts = getAllGirlProducts();
+        
         include "view/home.php"; 
         break;
     
